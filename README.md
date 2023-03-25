@@ -14,5 +14,5 @@ This fork of the AlphaClock firmware was modified to efficiently compile and upl
 
 * Renamed original AlphaClock.ino sketch to main.cpp following PlatformIO standards.
 * Re-ordered functions to resolve compile-time errors.
-* Small change to some functions to resolve String to Char conversion warnings at compile time.
+* Minor change to some functions to fix String to Char conversion warnings at compile time.
 * Removed "SYNC'D" display message after serial time sync. IMHO, this message becomes distracting when the time is updated regularly via the serial port.
